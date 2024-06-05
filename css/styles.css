@@ -24,7 +24,7 @@ body {
 
 header {
     padding: 10px 0;
-    background: url('gif-teste-oceano.gif') no-repeat center center;
+    background: url('/img/gif-teste-oceano.gif') no-repeat center center;
     height: 50vh;
     background-size: cover;
 }
