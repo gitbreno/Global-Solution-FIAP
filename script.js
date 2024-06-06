@@ -4,13 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const moreText = document.querySelector(".more-text");
 
     readMoreBtn.addEventListener("click", () => {
-        moreText.style.display = "block";
+        moreText.classList.add("show");
         readMoreBtn.style.display = "none";
         readLessBtn.style.display = "inline-block";
     });
 
     readLessBtn.addEventListener("click", () => {
-        moreText.style.display = "none";
+        moreText.classList.remove("show");
         readMoreBtn.style.display = "inline-block";
         readLessBtn.style.display = "none";
     });

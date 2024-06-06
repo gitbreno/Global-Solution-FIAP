@@ -290,6 +290,7 @@ main {
     color: var(--text-color);
 }
 
+/* Botões Ler Mais e Ler Menos */
 .read-more-btn,
 .read-less-btn {
     padding: 10px 20px;
@@ -308,6 +309,17 @@ main {
     background-color: var(--text-color);
     color: var(--highlight-color);
 }
+
+.more-text {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.more-text.show {
+    max-height: 1000px; /* Ajuste conforme o conteúdo */
+}
+
 
 
 footer {
