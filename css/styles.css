@@ -194,8 +194,49 @@ main {
     padding-left: 40px;
 }
 
+.video-section {
+    background-color:  var(--primary-color); /* Cor de fundo clara */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    color: var(--text-color); /* Cor do texto */
+}
+
+.video-section h2 {
+    font-family: Arial, sans-serif; /* Fonte primária */
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: var(--text-color); /* Cor do título */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.video-section p {
+    font-family: Arial, sans-serif; /* Fonte secundária */
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.6;
+    text-align: justify;
+    color: var(--text-color); /* Cor do texto */
+}
+
+.video-section h3 {
+    font-family: Arial, sans-serif; /* Fonte primária */
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    color: var(--text-color); /* Cor do subtítulo */
+}
+
 .section-box {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -218,6 +259,18 @@ main {
 .section-box p {
     font-size: 1.2em;
     font-weight: 300;
+}
+
+/* Adicionado para links responsivos */
+.section-box a {
+    word-wrap: break-word;
+    color: var(--highlight-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.section-box a:hover {
+    color: var(--text-color);
 }
 
 footer {

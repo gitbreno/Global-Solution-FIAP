@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', function () {
     const searchButton = document.getElementById('search-button');
     const searchInput = document.getElementById('search-input');
-    
+
     searchButton.addEventListener('click', function () {
         const searchText = searchInput.value.toLowerCase();
         const menuItems = document.querySelectorAll('.menu li a');
-        
+
         menuItems.forEach(item => {
             const itemText = item.textContent.toLowerCase();
             const sectionId = item.getAttribute('href').substring(1);
             const section = document.getElementById(sectionId);
-            
+
             if (itemText.includes(searchText)) {
                 section.scrollIntoView({ behavior: 'smooth' });
                 section.style.transition = 'background-color 1s ease';
