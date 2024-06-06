@@ -73,26 +73,43 @@ nav {
     align-items: center;
 }
 
-.search input {
-    padding: 5px;
-    font-size: 1em;
-}
 
 .search button {
-    padding: 5px 10px;
-    background-color: var(--text-color);
-    color: var(--primary-color);
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
     border: none;
-    cursor: pointer;
-}
-
-.login-btn {
-    padding: 5px 20px;
-    background-color: var(--text-color);
-    color: var(--primary-color);
-    border: none;
+    border-radius: 5px;
     cursor: pointer;
     font-size: 1em;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.search button:hover {
+    background-color: var(--text-color);
+    color: var(--secondary-color);
+}
+
+
+.login-btn {
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.login-btn:hover {
+    background-color: var(--text-color);
+    color: var(--highlight-color);
+}
+
+
+nav .login-btn {
+    margin-left: 20px;
 }
 
 .header-content {
@@ -195,20 +212,20 @@ main {
 }
 
 .video-section {
-    background-color:  var(--primary-color); /* Cor de fundo clara */
+    background-color:  var(--primary-color); 
     padding: 20px;
     border-radius: 10px;
     margin: 20px 0;
-    color: var(--text-color); /* Cor do texto */
+    color: var(--text-color); 
 }
 
 .video-section h2 {
-    font-family: Arial, sans-serif; /* Fonte primária */
+    font-family: Arial, sans-serif; 
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 10px;
     text-align: center;
-    color: var(--text-color); /* Cor do título */
+    color: var(--text-color); 
 }
 
 .video-container {
@@ -218,21 +235,21 @@ main {
 }
 
 .video-section p {
-    font-family: Arial, sans-serif; /* Fonte secundária */
+    font-family: Arial, sans-serif; 
     font-size: 1.2em;
     font-weight: 300;
     margin: 10px 0;
     line-height: 1.6;
     text-align: justify;
-    color: var(--text-color); /* Cor do texto */
+    color: var(--text-color); 
 }
 
 .video-section h3 {
-    font-family: Arial, sans-serif; /* Fonte primária */
+    font-family: Arial, sans-serif; 
     font-size: 1.5em;
     margin-top: 20px;
     text-align: center;
-    color: var(--text-color); /* Cor do subtítulo */
+    color: var(--text-color); 
 }
 
 .section-box {
@@ -261,7 +278,7 @@ main {
     font-weight: 300;
 }
 
-/* Adicionado para links responsivos */
+
 .section-box a {
     word-wrap: break-word;
     color: var(--highlight-color);
@@ -272,6 +289,26 @@ main {
 .section-box a:hover {
     color: var(--text-color);
 }
+
+.read-more-btn,
+.read-less-btn {
+    padding: 10px 20px;
+    background-color: var(--highlight-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 10px 0;
+}
+
+.read-more-btn:hover,
+.read-less-btn:hover {
+    background-color: var(--text-color);
+    color: var(--highlight-color);
+}
+
 
 footer {
     background: var(--primary-color);
