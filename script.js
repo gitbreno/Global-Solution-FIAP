@@ -49,3 +49,16 @@ document.addEventListener('DOMContentLoaded', function () {
         readLessBtn.style.display = "none";
     });
 });
+
+
+  window.watsonAssistantChatOptions = {
+    integrationID: "77363169-0ee0-4cfb-a378-c0de38d06f0f", 
+    region: "us-south", 
+    serviceInstanceID: "c622d761-85ed-4eeb-bbfc-37e78b2ab531", 
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
