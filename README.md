@@ -17,8 +17,8 @@ Opção de criar conta para salvar suas preferências, se inscrever no boletim i
 Links para as redes sociais da iniciativa (Facebook, Instagram e Twitter) para que você se conecte com outros membros da comunidade.
 Funcionalidades em Desenvolvimento:
 
-Login: A funcionalidade de login está em desenvolvimento e ainda não está disponível no site.
-Vídeo: A funcionalidade de vídeo está em desenvolvimento e ainda não está disponível no site.
+Login: A funcionalidade de login está em desenvolvimento no site.
+Bot: Watson Assistant te ajudará com suas perguntas.
 Importante:
 
 Lamentamos informar que o aluno Vitor Kenzo Mizumoto (RM: 557245) está enfrentando problemas com seu acesso ao GitHub. Pedimos a sua compreensão neste momento difícil e solicitamos que aguardem a resolução do problema.
